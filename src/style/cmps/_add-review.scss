@@ -1,0 +1,35 @@
+.reviews-container{
+    
+}
+
+
+
+
+.add-review{
+    
+  
+    .add-review-wrapper{
+        width: 80%;
+        margin: 15px 35px;
+    }
+    .md-field:last-child {
+        margin-bottom: 40px;
+    }
+    .review-btn-wrapper{
+        position: relative;
+        top: -22px;
+        left: -7px;
+    }
+
+}
+
+
+
+.md-theme-default a:not(.md-button){
+    color:unset;
+
+    &:hover {
+        color: green;
+        // color: unset;
+    }
+}

@@ -1,0 +1,31 @@
+.one-review{
+    width: 88%;
+    background-color: #fff;
+    padding: 10px;
+    margin: 16px;
+    border: 1px solid #1C6EA4;
+
+    .text-wrapper{
+        p{
+            margin: 6px 0 18px;
+            color: rgba(0, 0, 0, 0.849);
+        }
+        span{
+            color: rgba(0, 0, 0, 0.596);
+            font-size: 1.2rem;
+        }
+    }
+    .description{
+        margin:0;
+    }
+    .remove-review-btn{
+        width: 47px;
+        height: 30px;
+        transition: .4s cubic-bezier(.25,.8,.25,1);
+
+        &:hover{
+            background-color:#b83b5e;
+            color: white;
+        }
+    }
+}

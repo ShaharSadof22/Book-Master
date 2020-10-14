@@ -1,0 +1,46 @@
+.home{
+    background-color: #636363;
+    .cover-img{
+        width: 98.9vw;
+        height: calc(100vh - 130px);
+
+    }
+    .text-container{
+        position: absolute;
+        top: 50vh;
+        left: 58vw;
+        text-align: center;
+
+        h1{
+            padding: 20px;
+            font-size: 2.3rem;
+            color: #8e2744;
+        }
+        p{
+            padding: 20px;
+            font-size: 1.3rem;
+        }
+        a{
+            color: #8e2744;
+            font-size: 1.3rem;
+            padding: 20px;
+            position: relative;
+            top: 10px;
+        }
+
+        @media screen and (max-width: 1150px){
+            left: 49vw;
+        }
+        @media screen and (max-width: 650px){
+            h1{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: .9rem;
+            }
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
+}
