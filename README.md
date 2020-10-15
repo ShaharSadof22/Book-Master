@@ -1,2 +1,1 @@
-
-Book Master is an application base Vue.js
+Book Master is an application based Vue.js
